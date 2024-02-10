@@ -6,7 +6,15 @@ export default {
   ],
   theme: {
     extend: {},
+    duration: {
+      fast: "3s",
+      normal: "8s",
+      slow: "15s",
   },
-  plugins: [],
+  },
+  plugins: [
+    // eslint-disable-next-line no-undef
+    require("@designbycode/tailwindcss-text-glitch"),
+  ],
 }
 
