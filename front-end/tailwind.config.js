@@ -9,6 +9,7 @@ export default {
     duration: {
       fast: "3s",
       normal: "8s",
+      medium:"11s",
       slow: "15s",
   },
   },

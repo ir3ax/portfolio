@@ -16,7 +16,7 @@ export const AppLayout = () => {
 				outerScale={1.7}
 				outerAlpha={0}
 				outerStyle={{
-					border: `${dayModeAtomValue ? '3px solid #E0E0E0' : '3px solid #212121'}`
+					border: `${dayModeAtomValue ? '3px solid #E0E0E0' : '3px solid #7410F7'}`
 				}}
 				innerStyle={{
 					backgroundColor: `${dayModeAtomValue ? '#E0E0E0' : '#212121'}`

@@ -14,7 +14,7 @@ export const TopBar = () => {
     };
 
     return (
-        <nav className={`${dayModeAtomValue ? 'transition-colors duration-1000 bg-[#212121] w-full text-gray-300' : 'transition-colors duration-1000 bg-[#f7f7f2] w-full text-[#212121]'} pt-8 pl-20 pr-20 max-sm:p-0 max-md:pt-0 z-50`}>
+        <nav className={`${dayModeAtomValue ? 'transition-colors duration-1000 bg-[#050810] w-full text-gray-300' : 'transition-colors duration-1000 bg-[#f7f7f2] w-full text-[#212121]'} pt-8 pl-20 pr-20 max-sm:p-0 max-md:pt-0 z-50`}>
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                 <div className="relative flex h-16 items-center justify-between">
 
@@ -22,7 +22,7 @@ export const TopBar = () => {
                         <button 
                             onClick={toggleMobileMenu} 
                             type="button" 
-                            className={`relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-glitch hover:text-glitch-duration-normal focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white`} 
+                            className={`relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white`} 
                             aria-controls="mobile-menu" 
                             aria-expanded={showMobileMenu}
                         >
@@ -45,32 +45,32 @@ export const TopBar = () => {
                         <div className="w-full hidden sm:ml-6 sm:block">
                             <div className="flex justify-end items-end w-full space-x-4">
                                 <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
-														hover:text-glitch hover:text-glitch-duration-normal tracking-wider px-3 py-2`} 
+														tracking-wider px-3 py-2`} 
 														aria-current="page">
 														Home
 								</a>
                                 <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
-														hover:text-glitch hover:text-glitch-duration-normal tracking-wider px-3 py-2`} >
+														tracking-wider px-3 py-2`} >
 														About
 								</a>
                                 <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
-														hover:text-glitch hover:text-glitch-duration-normal tracking-wider px-3 py-2`} >
+														tracking-wider px-3 py-2`} >
 														Projects
 								</a>
                                 <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
-														hover:text-glitch hover:text-glitch-duration-normal tracking-wider px-3 py-2`} >
+														tracking-wider px-3 py-2`} >
 														Contact
 								</a>
                             </div>
@@ -97,32 +97,32 @@ export const TopBar = () => {
                 <div className="sm:hidden">
                     <div className={`space-y-1 px-2 pb-3 pt-2 ${animateBounce ? 'animate-bounce-once' : ''}`}>
                         <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
-														hover:text-glitch hover:text-glitch-duration-normal block px-3 py-2 text-base font-medium`} 
+														block px-3 py-2 text-base font-medium`} 
 														aria-current="page">
 														Home
 						</a>
                         <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
-														hover:text-glitch hover:text-glitch-duration-normal block px-3 py-2 text-base font-medium`}>
+														block px-3 py-2 text-base font-medium`}>
 														About
 						</a>
                         <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
-														hover:text-glitch hover:text-glitch-duration-normal block px-3 py-2 text-base font-medium`}>
+														block px-3 py-2 text-base font-medium`}>
 														Projects
 						</a>
                         <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
-              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-gray-300' : 'before:bg-[#212121]'}
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#7410F7]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
-														hover:text-glitch hover:text-glitch-duration-normal block px-3 py-2 text-base font-medium`}>
+														block px-3 py-2 text-base font-medium`}>
 														Contact
 						</a>
                     </div>

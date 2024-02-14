@@ -16,7 +16,8 @@
     "react-animated-cursor": "^2.11.2",
     "react-day-and-night-toggle": "^1.0.18",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.0"
+    "react-router-dom": "^6.22.0",
+    "react-swift-reveal": "^1.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

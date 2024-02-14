@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className={`text-20px font-sans ${dayModeAtomValue ? 'transition-colors duration-1000 bg-[#212121] h-[200vh] w-full text-gray-300' : 'transition-colors duration-1000 bg-[#f7f7f2] h-[200vh] w-full text-[#212121]'}`}>
+      <div className={`text-20px font-sans ${dayModeAtomValue ? 'transition-all duration-1000 bg-[#050810] h-full w-full text-gray-300 pb-24' : 'transition-all duration-1000 bg-[#f0e5fd] h-full w-full text-[#212121] pb-24'}`}>
         <RouterProvider router={router} />
       </div>
     </>
