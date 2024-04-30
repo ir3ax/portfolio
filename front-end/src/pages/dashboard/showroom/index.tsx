@@ -87,7 +87,7 @@ export const ShowRoom = () => {
                                 </div>
                                 {/* Slider indicators */}
                                 <div className="absolute -bottom-32 left-1/2 transform -translate-x-1/2 flex space-x-3 rtl:space-x-reverse z-30">
-                                    {dummyData.map((slide, index) => (
+                                    {dummyData.map((__, index) => (
                                         <button key={index} type="button" className={`w-3 h-3 rounded-full ${index === currentSlide ? 'bg-gray-700' : 'bg-gray-400'}`} aria-label={`Slide ${index + 1}`} onClick={() => changeSlide(index)}></button>
                                     ))}
                                 </div>
