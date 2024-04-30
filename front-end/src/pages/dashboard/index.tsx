@@ -5,6 +5,7 @@ import {
 } from 'react-swift-reveal';
 import { dayModeAtom } from '../../atom/day-mode';
 import { Projects } from './projects';
+import { ShowRoom } from './showroom';
 
 export const Dashboard = () => {
 
@@ -13,11 +14,11 @@ export const Dashboard = () => {
   return (
      <>
         <div className={`w-full h-[100vh] flex pr-20 pl-20 items-center max-sm:p-6 shadow-2xl ${dayModeAtomValue ? 'transition-all duration-1000 bg-[#050810] shadow-[#0f131c]' : 'transition-all duration-1000 bg-[#f7f7f2] shadow-[#eaeae6]'}`}>
-          <div className='flex flex-col justify-start items-start gap-y-6'>
+          <div className='flex flex-col justify-start items-start gap-y-6 2xl:pr-40 2xl:pl-40 xl:pr-30 xl:pl-30 lg:pr-10 lg:pl-10'>
           <Fade delay={400} duration={2000}>
             <div className='content relative pr-20 pl-20 max-sm:pl-0 max-sm:pr-0 w-full'>
-              <h1 style={{ WebkitTextStroke: `2px ${dayModeAtomValue ? '#10E956' : '#7410F7'}` }} className='max-sm:ml-[10.5rem] ml-[19.5rem] flex justify-center items-center text-6xl tracking-tighter font-medium max-sm:text-3xl'>I'm Mark Limuel Fernando</h1>
-              <h1 style={{ color: `${dayModeAtomValue ? '#10E956' : '#7410F7'}` }} className='max-sm:ml-[10.5rem] ml-[19.5rem] flex justify-center items-center text-6xl tracking-tighter font-medium max-sm:text-3xl'>I'm Mark Limuel Fernando</h1>
+              <h1 style={{ WebkitTextStroke: `2px ${dayModeAtomValue ? '#10E956' : '#333333'}` }} className='max-sm:ml-[12rem] ml-[19.5rem] flex justify-center items-center text-6xl tracking-tighter font-medium max-sm:text-3xl'>I'm Mark Limuel Fernando</h1>
+              <h1 style={{ color: `${dayModeAtomValue ? '#10E956' : '#333333'}` }} className='max-sm:ml-[12rem] ml-[19.5rem] flex justify-center items-center text-6xl tracking-tighter font-medium max-sm:text-3xl'>I'm Mark Limuel Fernando</h1>
             </div>
             <div className='mt-12 flex flex-col gap-y-6'>
             <Fade delay={800} duration={2000}>
@@ -31,7 +32,7 @@ export const Dashboard = () => {
                 <Bounce delay={1600} duration={2000}>
                   <span className="scroll-btn w-full">
                     <a href="#tooling" className={`mouse cursor-pointer w-12 h-16 border-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#212121]'} rounded-3xl`}>
-                        <span className={`${dayModeAtomValue ? 'bg-gray-300' : 'bg-[#7410F7]'}`} />
+                        <span className={`${dayModeAtomValue ? 'bg-gray-300' : 'bg-[#333333]'}`} />
                     </a>
                   </span>
                 </Bounce>
@@ -42,6 +43,10 @@ export const Dashboard = () => {
 
         <div id='tooling' className='w-full h-full flex pr-20 pl-20 items-center max-sm:p-6'>
             <Projects />
+        </div>
+
+        <div id='showroom' className='w-full h-full flex items-center max-sm:p-6'>
+            <ShowRoom />
         </div>
       </>
   );

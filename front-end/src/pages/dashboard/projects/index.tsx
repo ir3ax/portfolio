@@ -14,11 +14,14 @@ import Jotai from '../../../assets/teckstack-darkmode/jotai.png'
 import Git from '../../../assets/teckstack-darkmode/commit-git.png'
 import SpringBoot from '../../../assets/teckstack-darkmode/spring-boot.png'
 import Go from '../../../assets/teckstack-darkmode/go.png'
-import Python from '../../../assets/teckstack-darkmode/python.png'
+// import Python from '../../../assets/teckstack-darkmode/python.png'
 import MySql from '../../../assets/teckstack-darkmode/mysql.png'
 import PostGres from '../../../assets/teckstack-darkmode/postgre.png'
 import RestApi from '../../../assets/teckstack-darkmode/api.png'
 import Shopify from '../../../assets/teckstack-darkmode/shopify.png'
+import Jira from '../../../assets/teckstack-darkmode/jira.png'
+import Bitbucket from '../../../assets/teckstack-darkmode/bitbucket.png'
+
 //DayMode
 import HTMLDay from '../../../assets/techstack-daymode/html.png'
 import CSSDay from '../../../assets/techstack-daymode/css-3.png'
@@ -31,11 +34,13 @@ import JotaiDay from '../../../assets/techstack-daymode/jotai.png'
 import GitDay from '../../../assets/techstack-daymode/commit-git.png'
 import SpringBootDay from '../../../assets/techstack-daymode/spring-boot.png'
 import GoDay from '../../../assets/techstack-daymode/go.png'
-import PythonDay from '../../../assets/techstack-daymode/python.png'
+// import PythonDay from '../../../assets/techstack-daymode/python.png'
 import MySqlDay from '../../../assets/techstack-daymode/mysql.png'
 import PostGresDay from '../../../assets/techstack-daymode/postgre.png'
 import RestApiDay from '../../../assets/techstack-daymode/api.png'
 import ShopifyDay from '../../../assets/techstack-daymode/shopify.png'
+import JiraDay from '../../../assets/techstack-daymode/jira-day.png'
+import BitbucketDay from '../../../assets/techstack-daymode/bitbucket-day.png'
 
 import { TechStack } from './techstack-card';
 
@@ -76,10 +81,6 @@ const techStackData = [
       "imgName":"Jotai",
     },
     {
-      "img":dayModeAtomValue ? Git : GitDay,
-      "imgName":"Git",
-    },
-    {
       "img":dayModeAtomValue ? SpringBoot : SpringBootDay,
       "imgName":"SpringBoot",
     },
@@ -87,10 +88,10 @@ const techStackData = [
       "img":dayModeAtomValue ? Go : GoDay,
       "imgName":"GoLang",
     },
-    {
-      "img":dayModeAtomValue ? Python : PythonDay,
-      "imgName":"Python",
-    },
+    // {
+    //   "img":dayModeAtomValue ? Python : PythonDay,
+    //   "imgName":"Python",
+    // },
     {
       "img":dayModeAtomValue ? MySql : MySqlDay,
       "imgName":"MySQL",
@@ -104,6 +105,18 @@ const techStackData = [
       "imgName":"Rest Api",
     },
     {
+      "img":dayModeAtomValue ? Git : GitDay,
+      "imgName":"Git",
+    },
+    {
+      "img":dayModeAtomValue ? Jira : JiraDay,
+      "imgName":"Jira",
+    },
+    {
+      "img":dayModeAtomValue ? Bitbucket : BitbucketDay,
+      "imgName":"Bitbucket",
+    },
+    {
       "img":dayModeAtomValue ? Shopify : ShopifyDay,
       "imgName":"Shopify",
     },
@@ -114,12 +127,12 @@ const techStackData = [
         <Fade delay={200} duration={2000}>
         <div className='flex flex-col justify-center items-center w-full pt-32'>
           <Fade delay={400} duration={2000}>
-            <div className={`flex justify-center items-center p-4 pr-12 pl-12 border ${dayModeAtomValue ? 'border-2 border-[#10E956] bg-[#12141D]' : 'border-2 border-[#7511F7] bg-[#f7f7f2]'} rounded-md`}>
-              <h2 className={`text-3xl font-semibold ${dayModeAtomValue ? 'text-[#10E956]' : 'text-[#212121]'}`}>TOOLING</h2>
+            <div className={`flex justify-center items-center p-4 pr-12 pl-12 border ${dayModeAtomValue ? 'border-2 border-[#10E956] bg-[#12141D]' : 'border-2 border-[#333333] bg-[#f7f7f2]'} rounded-md`}>
+              <h2 className={`connect-with-me text-4xl font-semibold tracking-wider ${dayModeAtomValue ? 'text-[#10E956]' : 'text-[#212121]'}`}>TOOLING</h2>
             </div>
           </Fade>
           <Fade delay={600} duration={2000}>
-          <div className={`flex flex-col justify-center items-center mt-12 p-4 pr-12 pl-12 border ${dayModeAtomValue ? 'border-2 border-[#314437] bg-[#0C8C34]' : 'border-2 border-[#7511F7] bg-[#f7f7f2]'} rounded-md w-[80%] max-sm:w-full`}>
+          <div className={`flex flex-col justify-center items-center mt-12 p-4 pr-12 pl-12 border ${dayModeAtomValue ? 'border-2 border-[#314437] bg-[#0C8C34]' : 'border-2 border-[#333333] bg-[#f7f7f2]'} rounded-md w-[80%] max-sm:w-full`}>
             <div className='mt-4 mb-4 grid grid-cols-4 gap-6 max-sm:grid-cols-1'>
               {
               techStackData.map((index, key) => (
