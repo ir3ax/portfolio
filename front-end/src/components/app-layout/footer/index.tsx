@@ -18,7 +18,7 @@ export const Footer = () => {
                 <div className='flex flex-col justify-center items-center w-full pt-24'>
                     <Fade delay={400} duration={2000}>
                         <div className={`flex justify-center items-center p-4 pr-12 pl-12 rounded-md`}>
-                            <h2 className={`connect-with-me text-6xl max-sm:text-4xl font-semibold rotate-3 tracking-wider ${dayModeAtomValue ? 'text-[#10E956]' : 'text-[#212121]'}`}>CONNECT WITH ME</h2>
+                            <h2 className={`connect-with-me-connect text-6xl max-sm:text-4xl font-semibold rotate-3 tracking-wider ${dayModeAtomValue ? 'text-[#10E956]' : 'text-[#212121]'}`}>CONNECT WITH ME</h2>
                         </div>
                     </Fade>
                     <Fade delay={600} duration={2000}>
@@ -46,7 +46,7 @@ export const Footer = () => {
                         </a>
                     </Fade>
                     <Fade delay={800} duration={2000}>
-                        <div className={`mt-20 font-bold ${dayModeAtomValue ? 'text-[#10E956]' : 'text-[#212121]' } text-xl max-sm:text-lg max-sm:text-center`}>© Copyright 2024, mlfernando.tech. All Rights Reserved.</div>
+                        <div className={`mt-20 font-bold ${dayModeAtomValue ? 'text-[#10E956]' : 'text-[#212121]' } text-sm max-sm:text-sm max-sm:text-center`}>© Copyright 2024, Created by Mark Limuel Fernando. All Rights Reserved.</div>
                     </Fade>
                 </div>
             </div>

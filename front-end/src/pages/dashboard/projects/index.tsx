@@ -132,8 +132,8 @@ const techStackData = [
             </div>
           </Fade>
           <Fade delay={600} duration={2000}>
-          <div className={`flex flex-col justify-center items-center mt-12 p-4 pr-12 pl-12 border ${dayModeAtomValue ? 'border-2 border-[#314437] bg-[#0C8C34]' : 'border-2 border-[#333333] bg-[#f7f7f2]'} rounded-md w-[80%] max-sm:w-full`}>
-            <div className='mt-4 mb-4 grid grid-cols-4 gap-6 max-sm:grid-cols-1'>
+          <div className={`flex flex-col justify-center items-center mt-12 p-4 pr-12 pl-12 max-sm:pl-1 max-sm:pr-1 max-sm:p-1 border ${dayModeAtomValue ? 'border-2 border-[#314437] bg-[#0C8C34]' : 'border-2 border-[#333333] bg-[#f7f7f2]'} rounded-md w-[80%] max-sm:w-full`}>
+            <div className='mt-4 mb-4 grid grid-cols-4 gap-6 max-sm:grid-cols-2 max-sm:gap-2'>
               {
               techStackData.map((index, key) => (
                 <Fade key={key} delay={1200} duration={2000}>
