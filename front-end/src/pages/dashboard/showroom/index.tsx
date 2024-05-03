@@ -98,7 +98,7 @@ export const ShowRoom = () => {
                                                             <div className='w-full ml-2 mr-2 flex gap-2 max-sm:pr-8 max-sm:flex-col max-sm:gap-0 max-sm:mt-2'>
                                                                 {
                                                                     slide.githubFrontend && (
-                                                                        <a target='_blank' className='max-sm:w-[67%] mt-2 flex gap-2 px-4 py-1 bg-[#333333] text-sm text-white rounded-md hover:bg-[#252629]'>
+                                                                        <a target='_blank' href={slide.githubFrontend} className='max-sm:w-[67%] mt-2 flex gap-2 px-4 py-1 bg-[#333333] text-sm text-white rounded-md hover:bg-[#252629]'>
                                                                             Github Frontend
                                                                             <span className='mt-[2px]'>
                                                                                 <FaGithub className='w-4 h-4' />
@@ -108,7 +108,7 @@ export const ShowRoom = () => {
                                                                 }
                                                                 {
                                                                     slide.githubBackend && (
-                                                                        <a target='_blank' className='max-sm:w-[67%] mt-2 flex gap-2 px-4 py-1 bg-[#333333] text-sm text-white rounded-md hover:bg-[#252629]'>
+                                                                        <a target='_blank' href={slide.githubBackend} className='max-sm:w-[67%] mt-2 flex gap-2 px-4 py-1 bg-[#333333] text-sm text-white rounded-md hover:bg-[#252629]'>
                                                                             Github Backend
                                                                             <span className='mt-[2px]'>
                                                                                 <FaGithub className='w-4 h-4' />
