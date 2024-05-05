@@ -30,7 +30,7 @@ export const AppLayout = () => {
 				<div className='flex-grow relative z-0'>
 					<Outlet />
 				</div>
-			<div className='z-50'>
+			<div id='contact' className='z-50'>
 				<Footer />
 			</div>
 			</div>

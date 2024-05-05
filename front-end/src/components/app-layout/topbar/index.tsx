@@ -46,7 +46,7 @@ export const TopBar = () => {
                         </div>
                         <div className="w-full hidden mt-4 sm:ml-6 sm:block">
                             <div className="flex justify-end items-end w-full space-x-4">
-                                <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                                <a href="#home"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
@@ -54,21 +54,28 @@ export const TopBar = () => {
 														aria-current="page">
 														Home
 								</a>
-                                <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                                <a href="#tooling"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
 														tracking-wider px-3 py-2`} >
-														About
+														Tooling
 								</a>
-                                <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                                <a href="#showroom"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
 														tracking-wider px-3 py-2`} >
-														Projects
+														Showroom
 								</a>
-                                <a href="#"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                                <a href="#experiences"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
+              											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
+														tracking-wider px-3 py-2`} >
+														Experiences
+								</a>
+                                <a href="#contact"  className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300 text-sm font-medium 
@@ -98,7 +105,7 @@ export const TopBar = () => {
             {showMobileMenu && (
                 <div className="sm:hidden">
                     <div className={`space-y-1 px-2 pb-3 pt-2 ${animateBounce ? 'animate-bounce-once' : ''}`}>
-                        <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                        <a href="#home" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
@@ -106,21 +113,28 @@ export const TopBar = () => {
 														aria-current="page">
 														Home
 						</a>
-                        <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                        <a href="#tooling" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
 														block px-3 py-2 text-base font-medium`}>
-														About
+														Tooling
 						</a>
-                        <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                        <a href="#showroom" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
 														block px-3 py-2 text-base font-medium`}>
-														Projects
+														Showroom
 						</a>
-                        <a href="#" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                        <a href="#experiences" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+              											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
+              											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+              											before:transition before:ease-in-out before:duration-300
+														block px-3 py-2 text-base font-medium`}>
+														Experiences
+						</a>
+                        <a href="#contact" className={`relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
               											before:bottom-0 before:left-0 ${dayModeAtomValue ? 'before:bg-[#10E956]' : 'before:bg-[#333333]'}
               											before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
               											before:transition before:ease-in-out before:duration-300
