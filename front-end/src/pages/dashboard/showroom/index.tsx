@@ -42,7 +42,7 @@ export const ShowRoom = () => {
           type: 'Hooli Software Inc.',
           content: 'The Yokai Express Mobile App revolutionizes your dining experience by offering a comprehensive solution: it not only provides a Google map displaying all Yokai Express vending machines throughout the USA but also allows users to effortlessly place orders directly from their phones. With just a few taps, you can customize your meal, select your favorite items, and specify any preferences or dietary requirements. Once your order is placed, simply head to the nearest vending machine and scan the provided QR code to collect your meal instantly, eliminating the need to wait in line or handle cash transactions. Furthermore, the app offers exclusive coupon codes for discounts and special offers, making your Yokai Express experience even more affordable and enjoyable. As an added bonus, users can engage in mini AR games to earn rewards such as voucher points and other exciting prizes, adding an element of fun to every meal. Download the Yokai Express Mobile App today and enjoy the convenience, savings, and rewards it brings to your dining adventures!',
           languange: ['REACT','TYPESCRIPT', 'TAILWINDCSS', 'SPRINGBOOT'],
-          link: 'https://example.com/link2'
+          link: 'https://tapp.yokaiexpress.com/'
         },
         {
           id: 3,
@@ -50,8 +50,8 @@ export const ShowRoom = () => {
           imageUrl: Chronex,
           type: 'Personal Project',
           content: "Chronex is a cutting-edge ecommerce platform for watches, inspired by Shopify's user-friendly admin interface. It allows for easy management of products, freebies, orders, landing page slide images, and offers detailed graph analytics for revenue and order comparisons between the current and previous months. It showcases best-selling products, overall total spent, and generates reports effortlessly. With Chronex, users can easily order products and receive prompt email notifications upon successful orders, containing their address and order details. Additionally, admins can send emails when products are shipped, enabling users to track delivery dates seamlessly.",
-          link: 'https://chronex-frontend.onrender.com/',
           languange: ['REACT','TYPESCRIPT', 'TAILWINDCSS', 'GOLANG'],
+          link: 'https://chronex-frontend.onrender.com/',
           githubFrontend: 'https://github.com/ir3ax/chronex-frontend.git',
           githubBackend: 'https://github.com/ir3ax/chronex-backend.git'
         },

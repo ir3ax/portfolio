@@ -23,22 +23,22 @@ export const Footer = () => {
                     </Fade>
                     <Fade delay={600} duration={2000}>
                         <div className={`mt-16 w-full grid grid-cols-4 max-sm:grid-cols-2 border ${dayModeAtomValue ? 'border-2 border-[#10E956] bg-[#12141D]' : 'border-2 border-[#585858] bg-[#f7f7f2]'}`}>
-                            <a className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#333333] hover:bg-[#252629]`}>
+                            <a href="https://github.com/ir3ax" target="_blank" className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#333333] hover:bg-[#252629]`}>
                                 <span className='flex justify-center items-center w-full text-3xl max-sm:text-2xl font-semibold max-sm:ml-2'>GitHub</span>
                                 <span className='flex justify-center items-center w-full'><FaGithub className='w-12 h-12 max-sm:w-10 max-sm:h-10' /></span>
                             </a>
-                            <div className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#0077B5] hover:bg-[#015584]`}>
+                            <a href="https://www.linkedin.com/in/mark-limuel-fernando-452b75235/" target="_blank" className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#0077B5] hover:bg-[#015584]`}>
                                 <span className='flex justify-center items-center w-full text-3xl max-sm:text-2xl font-semibold max-sm:ml-2'>LinkedIn</span>
                                 <span className='flex justify-center items-center w-full'><FaLinkedin className='w-12 h-12 max-sm:w-10 max-sm:h-10' /></span>
-                            </div>
-                            <div className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#006CFF] hover:bg-[#014EB8]`}>
+                            </a>
+                            <a href="https://www.facebook.com/r3ax31/" target="_blank" className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#006CFF] hover:bg-[#014EB8]`}>
                                 <span className='flex justify-center items-center w-full text-3xl max-sm:text-2xl font-semibold max-sm:ml-2'>Facebook</span>
                                 <span className='flex justify-center items-center w-full'><FaFacebook className='w-12 h-12 max-sm:w-10 max-sm:h-10' /></span>
-                            </div>
-                            <div className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#DD0387] hover:bg-[#9E196A]`}>
+                            </a>
+                            <a href="https://www.instagram.com/__mfernando/" target="_blank" className={`flex justify-center items-center gap-4 h-28 border-r-2 ${dayModeAtomValue ? 'border-[#10E956]' : 'border-[#585858] text-gray-300' } bg-[#b93455] hover:bg-[#9e1945]`}>
                                 <span className='flex justify-center items-center w-full text-3xl max-sm:text-2xl font-semibold max-sm:ml-2'>Instagram</span>
                                 <span className='flex justify-center items-center w-full'><FaInstagram className='w-12 h-12 max-sm:w-10 max-sm:h-10' /></span>
-                            </div>
+                            </a>
                         </div>
                         <a href='mailto:it.marklimuelfernando@gmail.com' className={`connect-with-me w-full h-20 flex justify-center items-center gap-6 border-2 text-5xl text-gray-300 ${dayModeAtomValue ? 'border-[#10E956] bg-[#2faf57] hover:bg-[#0C8536]' : 'border-[#585858] bg-[#444242] hover:bg-[#252629]' } cursor-pointer`}>
                             SHOOT ME AN EMAIL

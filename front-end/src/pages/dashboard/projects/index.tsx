@@ -21,6 +21,7 @@ import RestApi from '../../../assets/teckstack-darkmode/api.png'
 import Shopify from '../../../assets/teckstack-darkmode/shopify.png'
 import Jira from '../../../assets/teckstack-darkmode/jira.png'
 import Bitbucket from '../../../assets/teckstack-darkmode/bitbucket.png'
+import Docker from '../../../assets/teckstack-darkmode/docker.png'
 
 //DayMode
 import HTMLDay from '../../../assets/techstack-daymode/html.png'
@@ -41,6 +42,7 @@ import RestApiDay from '../../../assets/techstack-daymode/api.png'
 import ShopifyDay from '../../../assets/techstack-daymode/shopify.png'
 import JiraDay from '../../../assets/techstack-daymode/jira-day.png'
 import BitbucketDay from '../../../assets/techstack-daymode/bitbucket-day.png'
+import DockerDay from '../../../assets/techstack-daymode/dockerDay.png'
 
 import { TechStack } from './techstack-card';
 
@@ -107,6 +109,10 @@ const techStackData = [
     {
       "img":dayModeAtomValue ? Git : GitDay,
       "imgName":"Git",
+    },
+    {
+      "img":dayModeAtomValue ? Docker : DockerDay,
+      "imgName":"Docker",
     },
     {
       "img":dayModeAtomValue ? Jira : JiraDay,

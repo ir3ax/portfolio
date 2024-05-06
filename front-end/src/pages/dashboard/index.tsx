@@ -8,6 +8,7 @@ import { Projects } from './projects';
 import { ShowRoom } from './showroom';
 import { Experiences } from './experiences';
 import { IoMdCloudDownload } from "react-icons/io";
+import CvPdf from '../../assets/CV/CV-Fernando-Mark-Limuel-A..pdf';
 
 export const Dashboard = () => {
 
@@ -30,10 +31,10 @@ export const Dashboard = () => {
                 <p className='text-md max-sm:text-sm'>I follow the road of minimalism, finding beauty in simplicity and efficiency. When I'm not creating stunning web experiences, you can find me enjoying playing online games or swaying to the rhythm of Pop Music and Rock, immersing myself in the enchanting flow of music.</p>
               </Fade>
               <Fade delay={1400} duration={2000}>
-                <button className={`flex gap-4 w-[15%] max-sm:w-[55%] p-4 ${dayModeAtomValue ? 'bg-[#10E956] rounded-xl font-bold text-gray-600 hover:bg-[#4dd678]' : 'bg-[#333333] rounded-xl font-bold text-gray-300 hover:bg-[#4d4c4c]'}`}>
+                <a href={CvPdf} download="CV-Fernando-Mark-Limuel-A." target="_blank" rel="noreferrer" className={`flex gap-4 w-[15%] max-sm:w-[55%] p-4 ${dayModeAtomValue ? 'bg-[#10E956] rounded-xl font-bold text-gray-600 hover:bg-[#4dd678]' : 'bg-[#333333] rounded-xl font-bold text-gray-300 hover:bg-[#4d4c4c]'}`}>
                     Download CV
                     <IoMdCloudDownload className='w-6 h-6' />
-                </button>
+                </a>
               </Fade>
             </div>
               <div className='flex justify-center items-center pt-12 w-full'>
