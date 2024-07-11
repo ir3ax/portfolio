@@ -3,11 +3,14 @@ import { dayModeAtom } from '../../../atom/day-mode';
 import { useState } from 'react'; // Import useState hook
 import { Fade } from 'react-swift-reveal';
 import { FaGithub, FaHandPointLeft } from 'react-icons/fa';
-import { FaHandPointRight } from 'react-icons/fa';
+import { FaHandPointRight, FaReact } from 'react-icons/fa';
 import { TbWorldWww } from 'react-icons/tb';
 import Snap2App from '../../..//assets/showroom/snap2app4k.png'
 import YokaiExpress from '../../../assets/showroom/yokaiexpress4k.png'
 import Chronex from '../../../assets/showroom/chronex4k.png'
+import TicTacToe from '../../../assets/showroom/tic-tac-toe4k.png'
+import { SiTypescript, SiTailwindcss, SiSpring, SiPostgresql, SiMongodb, SiExpress } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6"; 
 
 export const ShowRoom = () => {
     const [dayModeAtomValue] = useAtom(dayModeAtom);
@@ -32,7 +35,27 @@ export const ShowRoom = () => {
           imageUrl: Snap2App,
           type: 'Hooli Software Inc.',
           content: 'SnapToApp is a cutting-edge platform for building apps, tailored for a wide range of users, from small business owners to established organizations. Its intuitive interface allows you to design and personalize mobile apps without needing to know how to code.',
-          languange: ['REACT','TYPESCRIPT', 'TAILWINDCSS', 'GOLANG'],
+          languange: [
+          {
+            name:'React',
+            icons: <FaReact className='w-4 h-4'/>
+          },
+          {
+            name:'Typescriptt',
+            icons: <SiTypescript className='w-4 h-4'/>
+          },
+          {
+            name:'TailwindCss',
+            icons: <SiTailwindcss className='w-5 h-5'/>
+          },
+          {
+            name:'GoLang',
+            icons: <FaGolang className='w-5 h-5 '/>
+          },
+          {
+            name:'PostgreSQL',
+            icons: <SiPostgresql  className='w-4 h-4'/>
+          }],
           link: 'https://snaptoapp.com/'
         },
         {
@@ -41,7 +64,27 @@ export const ShowRoom = () => {
           imageUrl: YokaiExpress,
           type: 'Hooli Software Inc.',
           content: 'The Yokai Express Mobile App revolutionizes your dining experience by offering a comprehensive solution: it not only provides a Google map displaying all Yokai Express vending machines throughout the USA but also allows users to effortlessly place orders directly from their phones. With just a few taps, you can customize your meal, select your favorite items, and specify any preferences or dietary requirements. Once your order is placed, simply head to the nearest vending machine and scan the provided QR code to collect your meal instantly, eliminating the need to wait in line or handle cash transactions. Furthermore, the app offers exclusive coupon codes for discounts and special offers, making your Yokai Express experience even more affordable and enjoyable. As an added bonus, users can engage in mini AR games to earn rewards such as voucher points and other exciting prizes, adding an element of fun to every meal. Download the Yokai Express Mobile App today and enjoy the convenience, savings, and rewards it brings to your dining adventures!',
-          languange: ['REACT','TYPESCRIPT', 'TAILWINDCSS', 'SPRINGBOOT'],
+          languange: [
+            {
+              name:'React',
+              icons: <FaReact className='w-4 h-4'/>
+            },
+            {
+              name:'Typescript',
+              icons: <SiTypescript className='w-4 h-4'/>
+            },
+            {
+              name:'TailwindCss',
+              icons: <SiTailwindcss className='w-5 h-5'/>
+            },
+            {
+              name:'SpringBoot',
+              icons: <SiSpring className='w-4 h-4'/>
+            },
+            {
+              name:'PostgreSQL',
+              icons: <SiPostgresql  className='w-4 h-4'/>
+            }],
           link: 'https://tapp.yokaiexpress.com/'
         },
         {
@@ -50,11 +93,62 @@ export const ShowRoom = () => {
           imageUrl: Chronex,
           type: 'Personal Project',
           content: "Chronex is a cutting-edge ecommerce platform for watches, inspired by Shopify's user-friendly admin interface. It allows for easy management of products, freebies, orders, landing page slide images, and offers detailed graph analytics for revenue and order comparisons between the current and previous months. It showcases best-selling products, overall total spent, and generates reports effortlessly. With Chronex, users can easily order products and receive prompt email notifications upon successful orders, containing their address and order details. Additionally, admins can send emails when products are shipped, enabling users to track delivery dates seamlessly.",
-          languange: ['REACT','TYPESCRIPT', 'TAILWINDCSS', 'GOLANG'],
+          languange: [
+            {
+              name:'React',
+              icons: <FaReact className='w-4 h-4'/>
+            },
+            {
+              name:'Typescript',
+              icons: <SiTypescript className='w-4 h-4'/>
+            },
+            {
+              name:'TailwindCss',
+              icons: <SiTailwindcss className='w-5 h-5'/>
+            },
+            {
+              name:'GoLang',
+              icons: <FaGolang className='w-5 h-5'/>
+            },
+            {
+              name:'PostgreSQL',
+              icons: <SiPostgresql  className='w-4 h-4'/>
+            }],
           link: 'https://chronex-frontend.onrender.com/',
           githubFrontend: 'https://github.com/ir3ax/chronex-frontend.git',
           githubBackend: 'https://github.com/ir3ax/chronex-backend.git'
         },
+        {
+            id: 4,
+            title: 'Tic-Tac-Toe',
+            imageUrl: TicTacToe,
+            type: 'Personal Project',
+            content: "Tic-Tac-Toe game is an engaging web application built using MERN Stack, offering an intuitive and interactive user interface inspired by classic game designs. Players take turns clicking on cells to mark X or O, with real-time updates reflecting each move. Utilizing React hooks and TypeScript for efficient state management and type safety, the game provides a smooth experience. Robust winning logic detects winning combinations or draws, immediately notifying players of the outcome. The game features a responsive design, ensuring consistent playability across devices, from desktops to mobile phones.",
+            languange: [
+              {
+                name:'React',
+                icons: <FaReact className='w-4 h-4'/>
+              },
+              {
+                name:'Typescript',
+                icons: <SiTypescript className='w-4 h-4'/>
+              },
+              {
+                name:'TailwindCss',
+                icons: <SiTailwindcss className='w-5 h-5'/>
+              },
+              {
+                name:'Express',
+                icons: <SiExpress className='w-5 h-5'/>
+              },
+              {
+                name:'MongoDB',
+                icons: <SiMongodb className='w-5 h-5'/>
+              }],
+            link: 'https://tic-tac-toe-dobu.onrender.com/',
+            githubFrontend: 'https://github.com/ir3ax/tic-tac-toe-frontend-MERN',
+            githubBackend: 'https://github.com/ir3ax/tic-tac-toe-backend-MERN'
+          },
       ];
 
       return (
@@ -93,9 +187,12 @@ export const ShowRoom = () => {
                                                             </div>
                                                             <div className='w-full mt-6 flex justify-start items-start gap-1 max-sm:grid max-sm:grid-cols-2 max-sm:pr-8'>
                                                                 {
-                                                                    slide.languange?.map((index, key) => (
-                                                                        <div key={key} className='px-4 py-1 text-[11px] rounded-md bg-[#2f447e] tracking-wide'>{index}</div>
-                                                                    )) 
+                                                                    slide.languange?.map((language, key) => (
+                                                                        <div key={key} className='px-4 py-1 text-[11px] rounded-md bg-[#2f447e] tracking-wide flex items-center space-x-2'>
+                                                                        <span className='text-sm pr-1'>{language.name}</span>
+                                                                        {language.icons}
+                                                                        </div>
+                                                                    ))
                                                                 }
                                                             </div>
                                                             <div className='w-full flex gap-2 max-sm:pr-8 max-sm:flex-col max-sm:gap-0 max-sm:mt-2'>
